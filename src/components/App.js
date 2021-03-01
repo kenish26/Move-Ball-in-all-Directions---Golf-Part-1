@@ -5,7 +5,7 @@ function App() {
     const [renderBall, setRenderBall] = useState(false);
     const [posi, setPosi] = useState(0);
     const [ballPosition, setBallPosition] = useState({ left: "0", top: "0" });
-    const handListner=()=> {
+    const handListner=(event)=> {
         switch (event.keyCode) {
             case 39:
                 console.log("k");
